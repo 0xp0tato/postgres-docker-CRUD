@@ -53,7 +53,6 @@ async function updateData(name, address) {
     ]);
 
     response = { status: 200, message: "Data updated successfully" };
-
     return response;
   } catch (error) {
     console.log(error);
